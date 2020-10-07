@@ -1,9 +1,50 @@
 /* Write your CSS here. */
+@media screen and (max-width: 730px) {
+  .header-nav__button#search > input {
+    /* visibility: hidden; */
+    display: none;
+  }
 
+  .header-nav__button > .boards-label {
+    display: none;
+  }
 
+}
 
+body {
+  font-family: 'Segoe UI', 'Roboto', 'Noto Sans', 'Ubuntu', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  margin: 0px;
+}
 
+.header-nav__container {
+  background-color: #026AA7;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 4px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
 
+.header-nav__container > .header-nav__group {
+  display: flex;
+  padding: 2px;
+}
+
+#middle-nav > #trello-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.header-nav__group#plus {
+  display: flex;
+  padding: 2px;
+}
+
+#alerts {
+  background-color: #CF513D;
+}
 
 
 
